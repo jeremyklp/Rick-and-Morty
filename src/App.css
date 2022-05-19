@@ -1,0 +1,195 @@
+.App {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 300px;
+  background-image: url(./img/occhi.gif);
+  background-size: 100% ;
+  background-position: 0px -160px;
+  background-repeat: no-repeat;
+  background-color: #05292e;
+  font-family:  Roboto, sans-serif;
+  
+}
+.fff{
+  display: flex;
+  grid-template-columns: auto auto;
+  flex-wrap: wrap;
+
+}
+
+
+input{
+  background-color: #05292e;
+  height: 20px;
+  color:white;
+
+}
+button{
+  background-color: #05292e;
+  height: 26px;
+  color: white;
+}
+#footerrr{
+  color: azure;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 200px;
+  margin-top: 100px;
+  background-color: #062226;
+  width:100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fff div{
+  width: 250px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#space-top{
+  height: 300px;
+}
+.card-menu{
+  display: flex;
+  justify-content: space-around;
+width: 800px;
+height: 120px;
+left: 275px;
+top: 404px;
+
+background: #062226;
+}
+.card-menu div{
+  color: aliceblue;
+  background-color: #062226;
+  padding: 15px;
+ 
+  
+}
+.spacecard{
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #05292e;
+}
+.result{
+  font-size: 18px;
+}
+.ger{
+  font-weight: 700;
+  font-size: 24px;
+}
+
+
+
+.card-datum{
+  text-align: left;
+  width: 250px;
+  height: auto;
+  background-color: #062226;
+  border-radius: 0px 0px 4px 4px;
+  margin: 80px;
+  color: aliceblue;
+  padding-bottom: 10px;
+  ;
+}
+.card-datum img{
+  width: 250px;
+}
+.cd{
+  display: block;
+}
+
+#name{
+  margin-left: 20px;
+font-weight: 400;
+font-size: 28px;
+line-height: 38px;
+display: flex;
+align-items: center;
+
+}
+
+.EN{
+  margin: 5px;
+  margin-left: 20px;
+  font-weight: 700;
+font-size: 16px;
+color: #7E7E7E;
+margin-top: 0;
+}
+
+#state{
+  display: flex;
+  position: absolute;
+  background-color: #062226;
+  margin-top: 10px;
+  padding: 5px;
+  width: 80px;
+  border-radius: 0px 12px 12px 0px;
+  
+}
+#state div{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+#circle{
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+#tank{
+  width: auto;
+}
+.date{
+  padding-left: 20px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+#gif{
+  top: -150px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -1
+}
+
+
+.App-header {
+  background-color: #283429;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
