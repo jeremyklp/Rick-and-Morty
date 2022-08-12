@@ -72,10 +72,19 @@ background: #062226;
 .spacecard{
   width: 100%;
   padding-top: 20px;
+
   display: flex;
   justify-content: center;
   background-color: #05292e;
 }
+input{
+  margin-top: 200px;
+}
+
+
+
+
+
 .result{
   font-size: 18px;
 }
@@ -192,4 +201,59 @@ margin-top: 0;
   to {
     transform: rotate(360deg);
   }
+}
+
+@media (max-width: 900px) {
+  input{
+    margin-top: 160px;
+  }
+
+
+
+
+  .App{
+    background-size: 120vh  ;
+    background-position: 0px -160px;
+    background-repeat: no-repeat;
+    background-color: #05292e;
+    font-family:  Roboto, sans-serif;
+  }
+  
+  
+}
+@media (max-width: 800px) {
+  input{
+    margin-top: 80px;
+  }
+
+
+
+
+  .App{
+    background-size: 100vh  ;
+    background-position: 0px -160px;
+    background-repeat: no-repeat;
+    background-color: #05292e;
+    font-family:  Roboto, sans-serif;
+  }
+  
+  
+}
+@media (max-width: 600px) {
+  input{
+    margin-top: 0px;
+  }
+
+
+
+
+  .App{
+    background-size: 80vh  ;
+    background-position: 0px -160px;
+    background-repeat: no-repeat;
+    background-color: #05292e;
+    font-family:  Roboto, sans-serif;
+  }
+  
+  
 }

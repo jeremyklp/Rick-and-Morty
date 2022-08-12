@@ -29,7 +29,7 @@ const Location = () => {
     return (
         <div>
             
-            <div>
+            <div >
                 <input  
                 type="number" 
                 placeholder='Enter #id max 126'
